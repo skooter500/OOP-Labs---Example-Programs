@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1Solution", "Lab1Solution\Lab1Solution.csproj", "{B836B0E9-DA68-4A2A-B25A-ED3BDB295C24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings2", "Strings2\Strings2.csproj", "{B4742BDC-FF73-4A53-9486-2ADA4A9206FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsExamples", "Strings2\StringsExamples.csproj", "{B4742BDC-FF73-4A53-9486-2ADA4A9206FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2Solution", "Lab2Solution\Lab2Solution.csproj", "{1F3901CC-ECBC-4701-BDFA-7D8C98E91024}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3Solution", "Lab3Solution\Lab3Solution.csproj", "{DE4DFBB8-12D1-4E0E-96BF-28E7F11B2F59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsAndCats", "Dogs&Cats\DogsAndCats.csproj", "{7E6E7A53-7797-4431-A13C-B0E54462C95D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTranslate", "SimpleTranslate\SimpleTranslate.csproj", "{09077023-6443-413D-B4F9-0E39CCE0BC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionToLabTest1", "SolutionToLabTest1\SolutionToLabTest1.csproj", "{082F8BC2-88D9-4C27-8B45-E8B344587BD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{7E6E7A53-7797-4431-A13C-B0E54462C95D}.Debug|x86.Build.0 = Debug|x86
 		{7E6E7A53-7797-4431-A13C-B0E54462C95D}.Release|x86.ActiveCfg = Release|x86
 		{7E6E7A53-7797-4431-A13C-B0E54462C95D}.Release|x86.Build.0 = Release|x86
+		{09077023-6443-413D-B4F9-0E39CCE0BC90}.Debug|x86.ActiveCfg = Debug|x86
+		{09077023-6443-413D-B4F9-0E39CCE0BC90}.Debug|x86.Build.0 = Debug|x86
+		{09077023-6443-413D-B4F9-0E39CCE0BC90}.Release|x86.ActiveCfg = Release|x86
+		{09077023-6443-413D-B4F9-0E39CCE0BC90}.Release|x86.Build.0 = Release|x86
+		{082F8BC2-88D9-4C27-8B45-E8B344587BD3}.Debug|x86.ActiveCfg = Debug|x86
+		{082F8BC2-88D9-4C27-8B45-E8B344587BD3}.Debug|x86.Build.0 = Debug|x86
+		{082F8BC2-88D9-4C27-8B45-E8B344587BD3}.Release|x86.ActiveCfg = Release|x86
+		{082F8BC2-88D9-4C27-8B45-E8B344587BD3}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
