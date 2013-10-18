@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTranslate", "SimpleTr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionToLabTest1", "SolutionToLabTest1\SolutionToLabTest1.csproj", "{082F8BC2-88D9-4C27-8B45-E8B344587BD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAAScores1", "GAAScores1\GAAScores1.csproj", "{795D44B2-54BD-4317-BA9E-A215E0B15D76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -61,6 +63,10 @@ Global
 		{082F8BC2-88D9-4C27-8B45-E8B344587BD3}.Debug|x86.Build.0 = Debug|x86
 		{082F8BC2-88D9-4C27-8B45-E8B344587BD3}.Release|x86.ActiveCfg = Release|x86
 		{082F8BC2-88D9-4C27-8B45-E8B344587BD3}.Release|x86.Build.0 = Release|x86
+		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Debug|x86.ActiveCfg = Debug|x86
+		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Debug|x86.Build.0 = Debug|x86
+		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Release|x86.ActiveCfg = Release|x86
+		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

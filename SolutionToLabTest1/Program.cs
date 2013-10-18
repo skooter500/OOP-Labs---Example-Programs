@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
-
 namespace Expenses
 {
     class Program
     {
         static Expense[] expenses;
-
         static void LoadExpenses(string filename)
         {
             string[] lines = System.IO.File.ReadAllLines(filename);
@@ -19,7 +17,6 @@ namespace Expenses
                 expenses[i] = new Expense(lines[i]);
             }
         }
-
         static void PrintExpenses(string party)
         {
             float total = 0.0f;
@@ -57,7 +54,6 @@ namespace Expenses
                 Console.WriteLine("Party " + party  + " not found");
             }
         }
-
         static void Main(string[] args)
         {
             LoadExpenses("expenses.txt");
