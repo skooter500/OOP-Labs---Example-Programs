@@ -23,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5Solution", "Lab5Solutio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAAScores1", "GAAScores1\GAAScores1.csproj", "{795D44B2-54BD-4317-BA9E-A215E0B15D76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogs&Cats&Humans", "Dogs&Cats&Humans\Dogs&Cats&Humans.csproj", "{7F98DFF9-D9FE-4D8A-896F-4AEF60220DA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A7DB409-4C06-4D14-BA15-4B8371FA665E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -73,6 +80,10 @@ Global
 		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Debug|x86.Build.0 = Debug|x86
 		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Release|x86.ActiveCfg = Release|x86
 		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Release|x86.Build.0 = Release|x86
+		{7F98DFF9-D9FE-4D8A-896F-4AEF60220DA5}.Debug|x86.ActiveCfg = Debug|x86
+		{7F98DFF9-D9FE-4D8A-896F-4AEF60220DA5}.Debug|x86.Build.0 = Debug|x86
+		{7F98DFF9-D9FE-4D8A-896F-4AEF60220DA5}.Release|x86.ActiveCfg = Release|x86
+		{7F98DFF9-D9FE-4D8A-896F-4AEF60220DA5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
