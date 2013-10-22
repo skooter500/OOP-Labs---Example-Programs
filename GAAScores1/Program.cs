@@ -12,6 +12,7 @@ namespace GAAScores1
 
         static TeamScore ParseMatchText(string text)
         {
+            text = text.Trim();
             TeamScore teamScore = new TeamScore();
             int lastSpace = text.LastIndexOf(' ');
             teamScore.TeamName = text.Substring(0, lastSpace);
@@ -39,8 +40,18 @@ namespace GAAScores1
             }
         }
 
+        static void PrintScores()
+        {
+            foreach (Match match in matches)
+            {
+                Console.WriteLine(match);
+            }
+        }
+
         static void Main(string[] args)
         {
+            LoadScores(fileName);
+            PrintScores();
         }
     }
 }
