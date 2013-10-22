@@ -23,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5Solution", "Lab5Solutio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAAScores1", "GAAScores1\GAAScores1.csproj", "{795D44B2-54BD-4317-BA9E-A215E0B15D76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6Solution", "Lab6Solution\CirclesShapes\Lab6Solution.csproj", "{32235248-B997-43FB-B68A-C485F01B7C16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDB4678F-7B01-412F-AD94-8C1D44282384}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -73,6 +80,10 @@ Global
 		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Debug|x86.Build.0 = Debug|x86
 		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Release|x86.ActiveCfg = Release|x86
 		{795D44B2-54BD-4317-BA9E-A215E0B15D76}.Release|x86.Build.0 = Release|x86
+		{32235248-B997-43FB-B68A-C485F01B7C16}.Debug|x86.ActiveCfg = Debug|x86
+		{32235248-B997-43FB-B68A-C485F01B7C16}.Debug|x86.Build.0 = Debug|x86
+		{32235248-B997-43FB-B68A-C485F01B7C16}.Release|x86.ActiveCfg = Release|x86
+		{32235248-B997-43FB-B68A-C485F01B7C16}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
