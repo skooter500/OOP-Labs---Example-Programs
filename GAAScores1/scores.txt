@@ -1,0 +1,21 @@
+This file contains a list of GAA Scores taken from the RTE Website. The scores are tab separated. A space separates the county and the score. Ignore these lines when parsing the file
+
+Offaly 1-14	Waterford 0-21
+Wexford 3-18	Antrim 0-17
+London 0-11	Westmeath 1-15
+Kilkenny 0-17	Dublin 2-07
+Mayo 1-15	Leitrim 1-05
+Clare 3-11	Derry 1-06
+Galway 1-08	Kilkenny 1-10
+Dublin 0-05	Offaly 3-13
+Tipperary 1-05	Cork 2-15
+Old Leighlin 1-10	Rathvilly 1-08
+Ballinagh 0-12	Cavan Gaels 0-11
+Castlehaven 0-16	Nemo Rangers 1-11
+Salthill-Knocknacarra 0-07	Corofin 2-13
+Sarsfields 0-13	Moorefield 2-14
+Scotstown 2-16	Clontibret 0-07
+Tullamore 2-07	Rhode 0-09
+Tourlestrane 0-13	Tubbercurry 0-10 
+Clonoe 3-08	Carrickmore 0-12
+St Loman’s 1-16	Tyrrellspass 0-15

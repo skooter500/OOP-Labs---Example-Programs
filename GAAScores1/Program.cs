@@ -7,7 +7,7 @@ namespace GAAScores1
 {
     class Program
     {
-        static string fileName = "scores.txt";
+        static string fileName = "../../scores.txt";
         static Match[] matches;
 
         static TeamScore ParseMatchText(string text)

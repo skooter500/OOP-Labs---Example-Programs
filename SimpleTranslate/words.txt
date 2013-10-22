@@ -1,0 +1,10 @@
+cat,cata
+dog,madra
+table,bord
+chair,cathaoir
+telivision,telifis
+computer,riomhaire
+smartphone,foncliste
+book,leabhar
+keyboard,mearchlar
+flute,fliuit

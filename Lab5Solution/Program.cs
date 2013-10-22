@@ -68,7 +68,7 @@ namespace Expenses
 
         static void Main(string[] args)
         {
-            LoadExpenses("expenses.txt");
+            LoadExpenses("../../expenses.txt");
             while (true)
             {
                 Console.WriteLine("Enter C to search by first 3 letters of the constituency or P to search by party  or \"quit\" to quit");

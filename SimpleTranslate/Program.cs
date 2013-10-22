@@ -9,10 +9,7 @@ namespace SImpleTranslate
     class Program
     {
         static void Main(string[] args)
-        {
-
-            Application.Run(new Form1());
-
+        {         
             Dictionary dictionary = new Dictionary();
             dictionary.Load();
 

@@ -56,7 +56,7 @@ namespace Expenses
         }
         static void Main(string[] args)
         {
-            LoadExpenses("expenses.txt");
+            LoadExpenses("../../expenses.txt");
             while (true)
             {
                 Console.WriteLine("Enter the name of a party or \"quit\" to quit");

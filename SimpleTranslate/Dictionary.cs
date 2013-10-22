@@ -14,7 +14,7 @@ namespace SImpleTranslate
         public Dictionary()
         {
             words = new Word[10];
-            fileName = "words.txt";
+            fileName = "../../words.txt";
         }
 
         public void Load()
