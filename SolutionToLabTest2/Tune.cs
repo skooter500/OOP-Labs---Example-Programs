@@ -7,12 +7,38 @@ namespace ABCFiles2012
 {
     public class Tune
     {
-        public int x;
-        public string title;
-        public string altTitle;
-        public string keySig;
-        public string timeSig;
+        private int x;
+        public int X
+        {
+            get { return x; }
+            set { x = value; }
+        }
+        private string title;
 
+        public string Title
+        {
+            get { return title; }
+            set { title = value; }
+        }
+        private string altTitle;
+
+        public string AltTitle
+        {
+            get { return altTitle; }
+            set { altTitle = value; }
+        }
+        private string keySig;
+        public string KeySig
+        {
+            get { return keySig; }
+            set { keySig = value; }
+        }
+        private string timeSig;
+        public string TimeSig
+        {
+            get { return timeSig; }
+            set { timeSig = value; }
+        }
         public Tune()
         {
             x = 0;
@@ -31,22 +57,23 @@ namespace ABCFiles2012
             timeSig = "";
         }
 
-        public void PrintHeaders()
+        public override string ToString()
         {
-            Console.Write(x + "," + title);
+            string ret = "";
+            ret += title;
             if (altTitle != "")
             {
-                Console.Write(", " + altTitle);
+                ret += "; " + altTitle;
             }
             if (keySig != "")
             {
-                Console.Write(", " + keySig);
+                ret += "; " + keySig;
             }
             if (timeSig != "")
             {
-                Console.Write(", " + timeSig);
+                ret += "; " + timeSig;
             }
-            Console.WriteLine();
+            return ret;
         }
     }
 }
