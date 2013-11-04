@@ -32,4 +32,13 @@ Week 6
 Dogs Cats & Humans
 List Example
 
+Week 7
+======
+Bank holiday 
+Lab Test
+
+Week 8
+======
+Solution to the lab test 2
+Moveable Tank
 

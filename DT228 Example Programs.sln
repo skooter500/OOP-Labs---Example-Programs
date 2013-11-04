@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionToLabTest2", "Solut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6Solution", "Lab6Solution\Lab6Solution.csproj", "{32235248-B997-43FB-B68A-C485F01B7C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveableTank", "MoveableTank\MoveableTank.csproj", "{0C50B4C0-2243-4E31-B420-D5D15BC480D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -88,14 +90,16 @@ Global
 		{7F98DFF9-D9FE-4D8A-896F-4AEF60220DA5}.Debug|x86.Build.0 = Debug|x86
 		{7F98DFF9-D9FE-4D8A-896F-4AEF60220DA5}.Release|x86.ActiveCfg = Release|x86
 		{7F98DFF9-D9FE-4D8A-896F-4AEF60220DA5}.Release|x86.Build.0 = Release|x86
-		{6FF0F516-3C93-4615-9E50-20D3FD59FF60}.Debug|x86.ActiveCfg = Debug|x86
-		{6FF0F516-3C93-4615-9E50-20D3FD59FF60}.Debug|x86.Build.0 = Debug|x86
-		{6FF0F516-3C93-4615-9E50-20D3FD59FF60}.Release|x86.ActiveCfg = Release|x86
-		{6FF0F516-3C93-4615-9E50-20D3FD59FF60}.Release|x86.Build.0 = Release|x86
+		{210986E2-9667-4D51-A9E5-E3A47DFB7D25}.Debug|x86.ActiveCfg = Debug|x86
+		{210986E2-9667-4D51-A9E5-E3A47DFB7D25}.Release|x86.ActiveCfg = Release|x86
 		{32235248-B997-43FB-B68A-C485F01B7C16}.Debug|x86.ActiveCfg = Debug|x86
 		{32235248-B997-43FB-B68A-C485F01B7C16}.Debug|x86.Build.0 = Debug|x86
 		{32235248-B997-43FB-B68A-C485F01B7C16}.Release|x86.ActiveCfg = Release|x86
 		{32235248-B997-43FB-B68A-C485F01B7C16}.Release|x86.Build.0 = Release|x86
+		{0C50B4C0-2243-4E31-B420-D5D15BC480D1}.Debug|x86.ActiveCfg = Debug|x86
+		{0C50B4C0-2243-4E31-B420-D5D15BC480D1}.Debug|x86.Build.0 = Debug|x86
+		{0C50B4C0-2243-4E31-B420-D5D15BC480D1}.Release|x86.ActiveCfg = Release|x86
+		{0C50B4C0-2243-4E31-B420-D5D15BC480D1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
