@@ -34,7 +34,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionToLabTest2", "Solut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6Solution", "Lab6Solution\Lab6Solution.csproj", "{32235248-B997-43FB-B68A-C485F01B7C16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveableTank", "MoveableTank\MoveableTank.csproj", "{0C50B4C0-2243-4E31-B420-D5D15BC480D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BVector", "BVector\BVector.csproj", "{23C4D7FA-026E-474C-A693-5879545912EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,10 +96,10 @@ Global
 		{32235248-B997-43FB-B68A-C485F01B7C16}.Debug|x86.Build.0 = Debug|x86
 		{32235248-B997-43FB-B68A-C485F01B7C16}.Release|x86.ActiveCfg = Release|x86
 		{32235248-B997-43FB-B68A-C485F01B7C16}.Release|x86.Build.0 = Release|x86
-		{0C50B4C0-2243-4E31-B420-D5D15BC480D1}.Debug|x86.ActiveCfg = Debug|x86
-		{0C50B4C0-2243-4E31-B420-D5D15BC480D1}.Debug|x86.Build.0 = Debug|x86
-		{0C50B4C0-2243-4E31-B420-D5D15BC480D1}.Release|x86.ActiveCfg = Release|x86
-		{0C50B4C0-2243-4E31-B420-D5D15BC480D1}.Release|x86.Build.0 = Release|x86
+		{23C4D7FA-026E-474C-A693-5879545912EA}.Debug|x86.ActiveCfg = Debug|x86
+		{23C4D7FA-026E-474C-A693-5879545912EA}.Debug|x86.Build.0 = Debug|x86
+		{23C4D7FA-026E-474C-A693-5879545912EA}.Release|x86.ActiveCfg = Release|x86
+		{23C4D7FA-026E-474C-A693-5879545912EA}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

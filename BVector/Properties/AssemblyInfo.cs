@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MoveableTank")]
-[assembly: AssemblyProduct("MoveableTank")]
-[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyTitle("BVector")]
 [assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyProduct("BVector")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e7bed8b8-00d2-4370-97ee-d51ccd510c78")]
+[assembly: Guid("62df49a9-bce3-47aa-9f63-af190a16c9cf")]
 
 // Version information for an assembly consists of the following four values:
 //
