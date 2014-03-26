@@ -36,6 +36,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6Solution", "Lab6Solutio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BVector", "BVector\BVector.csproj", "{23C4D7FA-026E-474C-A693-5879545912EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAAScoresOperatorOverloading", "GAAScoresOperatorOverloading\GAAScoresOperatorOverloading.csproj", "{5737F53B-EE9A-4F97-A3B1-98B94E2F71EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixOperatorOverloading", "MatrixOperatorOverloading\MatrixOperatorOverloading.csproj", "{DB44CEEC-90C5-4B26-8254-930E323F7DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -100,6 +104,14 @@ Global
 		{23C4D7FA-026E-474C-A693-5879545912EA}.Debug|x86.Build.0 = Debug|x86
 		{23C4D7FA-026E-474C-A693-5879545912EA}.Release|x86.ActiveCfg = Release|x86
 		{23C4D7FA-026E-474C-A693-5879545912EA}.Release|x86.Build.0 = Release|x86
+		{5737F53B-EE9A-4F97-A3B1-98B94E2F71EC}.Debug|x86.ActiveCfg = Debug|x86
+		{5737F53B-EE9A-4F97-A3B1-98B94E2F71EC}.Debug|x86.Build.0 = Debug|x86
+		{5737F53B-EE9A-4F97-A3B1-98B94E2F71EC}.Release|x86.ActiveCfg = Release|x86
+		{5737F53B-EE9A-4F97-A3B1-98B94E2F71EC}.Release|x86.Build.0 = Release|x86
+		{DB44CEEC-90C5-4B26-8254-930E323F7DCE}.Debug|x86.ActiveCfg = Debug|x86
+		{DB44CEEC-90C5-4B26-8254-930E323F7DCE}.Debug|x86.Build.0 = Debug|x86
+		{DB44CEEC-90C5-4B26-8254-930E323F7DCE}.Release|x86.ActiveCfg = Release|x86
+		{DB44CEEC-90C5-4B26-8254-930E323F7DCE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
