@@ -53,6 +53,13 @@ namespace MatrixOperatorOverloading
 
             CMatrix m3 = m1 * m2;
             Console.WriteLine(m3);
+
+            string a = "ABDEFGHIJK";
+            string b = "XDEFGHXXK";
+
+            int ed = EditDistance.ED(a, b);
+
+            Console.WriteLine(ed);
         }
     }
 }

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPlusPlusGenerics", "CPlusPlusGenerics\CPlusPlusGenerics.vcxproj", "{17D8C99A-3E25-4A94-A14C-72309B907293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D8C99A-3E25-4A94-A14C-72309B907293}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17D8C99A-3E25-4A94-A14C-72309B907293}.Debug|Win32.Build.0 = Debug|Win32
+		{17D8C99A-3E25-4A94-A14C-72309B907293}.Release|Win32.ActiveCfg = Release|Win32
+		{17D8C99A-3E25-4A94-A14C-72309B907293}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
