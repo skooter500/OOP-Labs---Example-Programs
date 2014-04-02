@@ -40,6 +40,10 @@ namespace MatrixOperatorOverloading
 
         public static CMatrix operator +(CMatrix a, CMatrix b)
         {
+            if ((a.Rows != b.Rows) || (a.Cols != b.Cols))
+            {
+                throw new MatrixException("Rows or cols not equal, so can't add these matrices.");
+            }
             CMatrix ret = new CMatrix(a.Rows, a.Cols);
             for (int row = 0; row < a.Rows; row++)
             {
@@ -53,6 +57,7 @@ namespace MatrixOperatorOverloading
 
         public static CMatrix operator -(CMatrix a)
         {
+            
             CMatrix ret = new CMatrix(a.Rows, a.Cols);
             for (int row = 0; row < a.Rows; row++)
             {
@@ -66,6 +71,10 @@ namespace MatrixOperatorOverloading
 
         public static CMatrix operator -(CMatrix a, CMatrix b)
         {
+            if ((a.Rows != b.Rows) || (a.Cols != b.Cols))
+            {
+                throw new MatrixException("Rows or cols not equal, so can't subtract these matrices.");
+            }
             return a + (-b);
         }
 
@@ -123,6 +132,10 @@ namespace MatrixOperatorOverloading
 
         public static CMatrix operator *(CMatrix a, CMatrix b)
         {
+            if (a.Cols != b.Rows)
+            {
+                throw new MatrixException("Rows in a not equal to cols in b can't multiply these matrices.");
+            }
             CMatrix ret = new CMatrix(a.Rows, b.Cols);
 
             for (int row = 0; row < a.Rows; row++)

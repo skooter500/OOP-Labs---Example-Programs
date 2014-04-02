@@ -60,6 +60,36 @@ namespace MatrixOperatorOverloading
             int ed = EditDistance.ED(a, b);
 
             Console.WriteLine(ed);
+
+
+            CMatrix mm1 = new CMatrix(10, 10);
+            CMatrix mm2 = new CMatrix(10, 5);
+
+            try
+            {
+                Console.WriteLine(mm1 * mm2);
+                Console.WriteLine(mm1 + mm2);
+            }
+            catch (IndexOutOfRangeException e)
+            {
+            }
+            catch (MatrixException e)
+            {
+                Console.WriteLine("A matrix exception occured");
+                Console.WriteLine(e.StackTrace);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Some other exception occured");
+                Console.WriteLine(e.StackTrace);
+                try
+                {
+                    // Close the file
+                }
+                catch (Exception ee)
+                {
+                }
+            }
         }
     }
 }
